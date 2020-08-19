@@ -1,5 +1,5 @@
 #![feature(min_const_generics)]
-#![feature(const_fn)]
+// #![feature(const_fn)]
 
 use core::{mem::MaybeUninit, ptr, slice};
 struct Vec<T, const N: usize> {
